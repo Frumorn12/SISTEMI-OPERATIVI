@@ -144,3 +144,5 @@ if __name__ == "__main__":
         newCameriere = Cameriere(q,f"Cameriere-{c}")
         newCameriere.start()
 
+
+

@@ -96,7 +96,7 @@ class Cliente(Thread):
             print(f"{current_thread().getName()} ha ordinato {self.quantita} {self.tipoPizza}")
 
             time.sleep(randint(1,5))
-            pizze = self.pizzeria.getPizza(self.tipoPizza)
+            pizze = self.pizzeria.getPizza(selftipoPizza)
 
             print(f"{current_thread().getName()} ha ritirato {self.quantita} {self.tipoPizza}")
 
